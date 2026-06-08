@@ -12,7 +12,7 @@ library(tidyverse)
 # Figure_6A
 
 culstrains = data.frame(Group = c("D0", "D1", "D3", "D5", "D6", "D7"), 
-                        Strains = c(313, 757, 737, 491, 503, 319))
+                        Strains = c(305, 757, 737, 491, 503, 319))
 
 pA = ggplot(culstrains, aes(x = Group, y = Strains, fill = Group)) + 
   geom_col(width = 0.6, alpha = 0.6) +
