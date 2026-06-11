@@ -1,0 +1,7 @@
+Number.hub.removed	remain.mean	remain.sd	remain.se	weighted	consider_cascade	network
+5	0.491881091617934	0.0111275375932638	0.00111275375932638	unweighted	No	D0
+5	0.619766081871345	0.0400121343291475	0.00400121343291475	unweighted	No	D1
+NA	NA	NA	NA	NA	NA	NA
+NA	NA	NA	NA	NA	NA	NA
+NA	NA	NA	NA	NA	NA	NA
+NA	NA	NA	NA	NA	NA	NA

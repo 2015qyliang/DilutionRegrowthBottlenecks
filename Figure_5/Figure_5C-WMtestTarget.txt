@@ -1,0 +1,2 @@
+ComparePairs	statisticD	Pvalue
+D0_vs_D1	0	1.45088891038497e-11
