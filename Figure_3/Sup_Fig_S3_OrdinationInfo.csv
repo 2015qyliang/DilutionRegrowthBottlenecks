@@ -1,0 +1,3 @@
+"Distance","Ordination","Diagnostic1","Diagnostic2","ZeroHandling"
+"Bray-Curtis","NMDS","Stress = 0.1604","trymax = 100","Not applicable"
+"CLR/Aitchison","PCoA","PCoA1 = 36.2%","PCoA2 = 14.2%","Pseudocount = 0.5 before CLR"
