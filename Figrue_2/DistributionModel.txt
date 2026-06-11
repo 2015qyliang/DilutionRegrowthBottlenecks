@@ -1,0 +1,6 @@
+Model	AICs
+Brokenstick	118535
+Niche-Preemption	102237
+Lognormal	18267
+Zipf	10016
+Zipf-Mandelbrot	9495
