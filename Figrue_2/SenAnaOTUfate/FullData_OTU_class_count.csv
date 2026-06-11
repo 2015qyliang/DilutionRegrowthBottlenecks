@@ -1,0 +1,10 @@
+Analysis,n_subsample,Iteration,Cutoff_label,dominance_cutoff,OTU_group,n_OTUs
+Full data,NA,NA,0.01%,1e-4,Abundant OTUs,732
+Full data,NA,NA,0.01%,1e-4,Rare OTUs,1615
+Full data,NA,NA,0.01%,1e-4,Absent in D0,1136
+Full data,NA,NA,0.1%,0.001,Abundant OTUs,110
+Full data,NA,NA,0.1%,0.001,Rare OTUs,2237
+Full data,NA,NA,0.1%,0.001,Absent in D0,1136
+Full data,NA,NA,1%,0.01,Abundant OTUs,13
+Full data,NA,NA,1%,0.01,Rare OTUs,2334
+Full data,NA,NA,1%,0.01,Absent in D0,1136
