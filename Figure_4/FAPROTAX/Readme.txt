@@ -1,0 +1,5 @@
+4 个 panel，全部用覆盖率校正后的版本，按"先证明混杂、再讲信号"的顺序排：
+A — 注释覆盖率（按组） ：FAPROTAX_annotation_coverage.pdf。这是必放的第一块，它证明 D0/D1（~26%/36%）与 D3–D5（~87–90%）覆盖率差异巨大，从而正当化后面所有的覆盖率归一化，也提前堵死审稿人"你这是覆盖率假象"的攻击。没有这张，后面三张都站不住。
+B — 覆盖率校正后的功能 PCoA ：FAPROTAX_PCoA_BrayCurtis_coverageNorm.pdf。证明功能结构的组间分离（PC1≈58%）在校正后依然存在，是多元层面的总览，顺带visual 上显示 D6/D7 的重复间散布。
+C — 覆盖率校正后的 focal guild 箱线（裁剪版） ：取自 FAPROTAX_focal_guilds_boxplot.pdf，但只留 6 个有判别力的：chemoheterotrophy（sanity，各组~85–98%）、aerobic_chemoheterotrophy（随稀释升）、anaerobic_chemoheterotrophy（D0/D1 高、D3/D5 跌）、sulfate_respiration、sulfite_respiration、respiration_of_sulfur_compounds（厌氧硫呼吸，D0/D1 显著、随稀释消失）。这是承载"oxic↑ / anoxic↓ 对比 + copiotroph 主导"的核心 panel。砍掉 fermentation（各组都高、不区分）、sulfur_respiration（痕量、D1 异常峰）、nitrate_respiration（D6 噪声峰）；nitrate_reduction 可留可不留（它和 aerobic 几乎重合，留着能顺带说明"同一批兼性菌、多功能计数"）。
+D — 覆盖率校正后的重复间离散箱线 ：佐证"强稀释→重复间分化增大"（D0–D5 紧、D6/D7 陡升）。注意：你现有的 FAPROTAX_dispersion_boxplot.pdf 是在原始表上算的，而 D6/D7 覆盖率本身散得极开，可能人为放大离散——所以这张要用 dispersion_cov 重画（脚本里对象已有，照 12b 加四行导出 dispersion_cov$distances 再画箱线即可）。
